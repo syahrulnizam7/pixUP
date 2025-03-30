@@ -35,7 +35,8 @@ PixUp adalah aplikasi berbasis web yang menggunakan AI untuk meningkatkan kualit
 
 ## 📸 Tangkapan Layar
 
-\_![Tampilan PixUp](https://pix-up.vercel.app/screenshot.png)
+![image](https://github.com/user-attachments/assets/0cbbcce3-de8f-425a-84e2-e6ddd8382d58)
+
 
 ---
 
