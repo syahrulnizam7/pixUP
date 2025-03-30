@@ -16,9 +16,68 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PixUp - AI Image Enhancer",
+  title: {
+    default: "PixUp - Image Enhancer",
+    template: "%s | PixUp",
+  },
   description:
-    "Transform your ordinary photos into stunning visuals with pixup",
+    "Transform your ordinary photos into stunning visuals with PixUp advanced image enhancement technology.",
+  keywords: [
+    "AI image enhancer",
+    "photo quality improvement",
+    "image upscaler",
+    "photo enhancer",
+    "AI photo editor",
+  ],
+  metadataBase: new URL("https://pixup.alangkun.my.id"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "PixUp - AI Image Enhancer",
+    description:
+      "Transform your ordinary photos into stunning visuals with PixUp AI",
+    url: "pixup.alangkun.my.id",
+    siteName: "PixUp",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "PixUp AI Image Enhancer",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PixUp - AI Image Enhancer",
+    description:
+      "Transform your ordinary photos into stunning visuals with PixUp AI",
+    images: ["/twitter-image.jpg"],
+    creator: "@yourtwitterhandle",
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png" }],
+    other: [
+      {
+        rel: "mask-icon",
+        url: "/safari-pinned-tab.svg",
+        color: "#5bbad5",
+      },
+    ],
+  },
+  manifest: "/site.webmanifest",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#000000" },
+  ],
 };
 
 export default function RootLayout({
@@ -28,6 +87,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <Analytics />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

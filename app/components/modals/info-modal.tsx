@@ -72,10 +72,11 @@ export default function InfoModal({ toggleInfo }: InfoModalProps) {
               </li>
             </ol>
 
-            <p className="text-base text-[#4B5563] dark:text-[#D1D5DB]">
-              We hope you enjoy using PixUp! If you have any questions or
-              feedback, please don't hesitate to contact us.
-            </p>
+            <div className="pt-4 text-center">
+              <div className="inline-flex items-center px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 text-sm font-medium">
+                Powered by Ryzen API
+              </div>
+            </div>
 
             <div className="text-center">
               <a
