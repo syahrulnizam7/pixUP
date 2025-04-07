@@ -29,10 +29,6 @@ export const metadata: Metadata = {
     "photo enhancer",
     "AI photo editor",
   ],
-  metadataBase: new URL("https://pixup.alangkun.my.id"),
-  alternates: {
-    canonical: "/",
-  },
   openGraph: {
     title: "PixUp - AI Image Enhancer",
     description:
@@ -47,7 +43,6 @@ export const metadata: Metadata = {
         alt: "PixUp AI Image Enhancer",
       },
     ],
-    locale: "en_US",
     type: "website",
   },
   twitter: {
@@ -56,7 +51,7 @@ export const metadata: Metadata = {
     description:
       "Transform your ordinary photos into stunning visuals with PixUp AI",
     images: ["/twitter-image.jpg"],
-    creator: "@yourtwitterhandle",
+    creator: "@Alangni",
   },
   icons: {
     icon: [
