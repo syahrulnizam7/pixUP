@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "PixUp - AI Image Enhancer",
     description:
       "Transform your ordinary photos into stunning visuals with PixUp AI",
-    url: "https://pixup.alangkun.my.id",
+    // url: "https://pixup.alangkun.my.id",
     siteName: "PixUp",
     images: [
       {
