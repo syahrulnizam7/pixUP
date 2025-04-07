@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: "PixUp",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "PixUp AI Image Enhancer",
