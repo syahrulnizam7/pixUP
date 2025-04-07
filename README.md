@@ -44,6 +44,6 @@ PixUp adalah aplikasi berbasis web yang menggunakan AI untuk meningkatkan kualit
 
 - 📧 **Email**: syhrulnizm7@gmail.com
 - 🌐 **Website**: [syahrul-nizam.my.id](https://syahrul-nizam.my.id)
-- 📸 **Instagram**: [@alangkun](https://instagram.com/alangkun)
+- 📸 **Instagram**: [@alang.kun](https://instagram.com/alang.kun)
 
 Terima kasih telah menggunakan PixUp! 🚀🎨
